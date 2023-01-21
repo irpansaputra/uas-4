@@ -1,1 +1,20 @@
-# uas-4
+public class uas {
+	int rows = 4;
+	System.out.println("## Printing the pattern ##");
+	for (int i = 1; i <= rows; i++) 
+            { 
+                    for (int j = rows; j > i; j--)
+		{
+			System.out.print("  ");
+		}
+
+		for (int k = 0; k <= i; k++)
+		{
+			System.out.print (k +" ");
+           
+           
+		}
+		System.out.println();
+	}
+}
+}
